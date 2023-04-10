@@ -67,7 +67,7 @@ const preenchimentoDadosCursos = async function () {
     getTituloCurso();
   };
 
-  const cardsCursosEscola = document.querySelectorAll(".course__card");
+  const cardsCursosEscola = document.querySelectorAll(".card_cursos");
   cardsCursosEscola.forEach((cardcursoEscola) => {cardcursoEscola.addEventListener("click", getIndiceCardsCursos);
   });
 };
