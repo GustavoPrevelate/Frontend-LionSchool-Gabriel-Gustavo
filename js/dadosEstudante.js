@@ -19,6 +19,8 @@ let registroEstudante = localStorage.getItem("numeroRegistro");
 
 //As Funções criadas abaixo são para retornar os alunos de uma disciplina especifica
 const estudanteEDisciplinas = async function (matricula) {
+
+  // Link da API que retorna dados das disciplinas do aluno filtrado
   const dadosAlunoFiltradoMatricula = `http://localhost:8080/v1/lion-school/alunos-disciplinas?matricula=${matricula}`;
 
   const response = await fetch(dadosAlunoFiltradoMatricula);

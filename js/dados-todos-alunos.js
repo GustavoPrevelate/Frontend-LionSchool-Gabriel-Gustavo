@@ -84,7 +84,7 @@ const todosAlunosCursoEspecifico = async function (siglaCursoEspecificado) {
 //Função que retorna o titulo do curso que os alunos estão cursando
 const filtragemNomesCursos = async function () {
 
-  let nomeCurso = localStorage.getItem("courseName");
+  let nomeCurso = localStorage.getItem("nome_curso");
 
   const ordemCurso = /[0-9]/g;
 

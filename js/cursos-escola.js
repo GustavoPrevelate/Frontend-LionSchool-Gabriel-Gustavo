@@ -61,7 +61,7 @@ const preenchimentoDadosCursos = async function () {
 
       localStorage.setItem("acronym", dadosCursos.acronym[event.currentTarget.dataset.index]);
 
-      localStorage.setItem("courseName", dadosCursos.name[event.currentTarget.dataset.index]);
+      localStorage.setItem("nome_curso", dadosCursos.name[event.currentTarget.dataset.index]);
     };
 
     getTituloCurso();
