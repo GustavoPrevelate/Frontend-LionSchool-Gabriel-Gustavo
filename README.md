@@ -55,9 +55,13 @@ O LightHouse basicamente analisa todo o seu site, indicando como está determina
 
 ![Report](./img-readme/home-light-house.png)
 
-- LightHouse alunos
+- LightHouse alunos Desenvolvimento
 
-![Report](./img-readme/alunos-light-house.png)
+![Report](./img-readme/desenvolvimento-light-house.png)
+
+- LightHouse alunos Redes
+
+![Report](./img-readme/redes-light-house.png)
 
 - LightHouse aluno
 
